@@ -1,6 +1,6 @@
 <?php 
     //Connect to Database 
-	$conn=mysqli_connect('localhost','test','test123','notesapp');	//(hostName,username,password,databaseName)
+	$conn=mysqli_connect('db.mbahnaf.local','test','test123','notesapp');	//(hostName,username,password,databaseName)
 
 	//check Connection
 	if(!$conn){
